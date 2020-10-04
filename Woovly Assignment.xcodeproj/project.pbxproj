@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110263C325299EAB00F10D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263C225299EAB00F10D6E /* AppDelegate.swift */; };
+		110263C525299EAB00F10D6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263C425299EAB00F10D6E /* SceneDelegate.swift */; };
+		110263C725299EAB00F10D6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263C625299EAB00F10D6E /* ViewController.swift */; };
+		110263CA25299EAB00F10D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110263C825299EAB00F10D6E /* Main.storyboard */; };
+		110263CC25299EAE00F10D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110263CB25299EAE00F10D6E /* Assets.xcassets */; };
+		110263CF25299EAE00F10D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110263CD25299EAE00F10D6E /* LaunchScreen.storyboard */; };
+		110263DA25299EAE00F10D6E /* Woovly_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263D925299EAE00F10D6E /* Woovly_AssignmentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		110263D625299EAE00F10D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110263B725299EAB00F10D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110263BE25299EAB00F10D6E;
+			remoteInfo = "Woovly Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110263BF25299EAB00F10D6E /* Woovly Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Woovly Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		110263C225299EAB00F10D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		110263C425299EAB00F10D6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		110263C625299EAB00F10D6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		110263C925299EAB00F10D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110263CB25299EAE00F10D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110263CE25299EAE00F10D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		110263D025299EAE00F10D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110263D525299EAE00F10D6E /* Woovly AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Woovly AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		110263D925299EAE00F10D6E /* Woovly_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woovly_AssignmentTests.swift; sourceTree = "<group>"; };
+		110263DB25299EAE00F10D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110263BC25299EAB00F10D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110263D225299EAE00F10D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110263B625299EAB00F10D6E = {
+			isa = PBXGroup;
+			children = (
+				110263C125299EAB00F10D6E /* Woovly Assignment */,
+				110263D825299EAE00F10D6E /* Woovly AssignmentTests */,
+				110263C025299EAB00F10D6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110263C025299EAB00F10D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110263BF25299EAB00F10D6E /* Woovly Assignment.app */,
+				110263D525299EAE00F10D6E /* Woovly AssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110263C125299EAB00F10D6E /* Woovly Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				110263C225299EAB00F10D6E /* AppDelegate.swift */,
+				110263C425299EAB00F10D6E /* SceneDelegate.swift */,
+				110263C625299EAB00F10D6E /* ViewController.swift */,
+				110263C825299EAB00F10D6E /* Main.storyboard */,
+				110263CB25299EAE00F10D6E /* Assets.xcassets */,
+				110263CD25299EAE00F10D6E /* LaunchScreen.storyboard */,
+				110263D025299EAE00F10D6E /* Info.plist */,
+			);
+			path = "Woovly Assignment";
+			sourceTree = "<group>";
+		};
+		110263D825299EAE00F10D6E /* Woovly AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				110263D925299EAE00F10D6E /* Woovly_AssignmentTests.swift */,
+				110263DB25299EAE00F10D6E /* Info.plist */,
+			);
+			path = "Woovly AssignmentTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110263BE25299EAB00F10D6E /* Woovly Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110263DE25299EAE00F10D6E /* Build configuration list for PBXNativeTarget "Woovly Assignment" */;
+			buildPhases = (
+				110263BB25299EAB00F10D6E /* Sources */,
+				110263BC25299EAB00F10D6E /* Frameworks */,
+				110263BD25299EAB00F10D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Woovly Assignment";
+			productName = "Woovly Assignment";
+			productReference = 110263BF25299EAB00F10D6E /* Woovly Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		110263D425299EAE00F10D6E /* Woovly AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110263E125299EAE00F10D6E /* Build configuration list for PBXNativeTarget "Woovly AssignmentTests" */;
+			buildPhases = (
+				110263D125299EAE00F10D6E /* Sources */,
+				110263D225299EAE00F10D6E /* Frameworks */,
+				110263D325299EAE00F10D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110263D725299EAE00F10D6E /* PBXTargetDependency */,
+			);
+			name = "Woovly AssignmentTests";
+			productName = "Woovly AssignmentTests";
+			productReference = 110263D525299EAE00F10D6E /* Woovly AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110263B725299EAB00F10D6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Woovly;
+				TargetAttributes = {
+					110263BE25299EAB00F10D6E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					110263D425299EAE00F10D6E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 110263BE25299EAB00F10D6E;
+					};
+				};
+			};
+			buildConfigurationList = 110263BA25299EAB00F10D6E /* Build configuration list for PBXProject "Woovly Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 110263B625299EAB00F10D6E;
+			productRefGroup = 110263C025299EAB00F10D6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110263BE25299EAB00F10D6E /* Woovly Assignment */,
+				110263D425299EAE00F10D6E /* Woovly AssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110263BD25299EAB00F10D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110263CF25299EAE00F10D6E /* LaunchScreen.storyboard in Resources */,
+				110263CC25299EAE00F10D6E /* Assets.xcassets in Resources */,
+				110263CA25299EAB00F10D6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110263D325299EAE00F10D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110263BB25299EAB00F10D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110263C725299EAB00F10D6E /* ViewController.swift in Sources */,
+				110263C325299EAB00F10D6E /* AppDelegate.swift in Sources */,
+				110263C525299EAB00F10D6E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110263D125299EAE00F10D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110263DA25299EAE00F10D6E /* Woovly_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		110263D725299EAE00F10D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110263BE25299EAB00F10D6E /* Woovly Assignment */;
+			targetProxy = 110263D625299EAE00F10D6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		110263C825299EAB00F10D6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110263C925299EAB00F10D6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		110263CD25299EAE00F10D6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110263CE25299EAE00F10D6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		110263DC25299EAE00F10D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		110263DD25299EAE00F10D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110263DF25299EAE00F10D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74TUC99U3V;
+				INFOPLIST_FILE = "Woovly Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woovly.assignment.Woovly-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		110263E025299EAE00F10D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74TUC99U3V;
+				INFOPLIST_FILE = "Woovly Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woovly.assignment.Woovly-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		110263E225299EAE00F10D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74TUC99U3V;
+				INFOPLIST_FILE = "Woovly AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woovly.assignment.Woovly-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woovly Assignment.app/Woovly Assignment";
+			};
+			name = Debug;
+		};
+		110263E325299EAE00F10D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74TUC99U3V;
+				INFOPLIST_FILE = "Woovly AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woovly.assignment.Woovly-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woovly Assignment.app/Woovly Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110263BA25299EAB00F10D6E /* Build configuration list for PBXProject "Woovly Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110263DC25299EAE00F10D6E /* Debug */,
+				110263DD25299EAE00F10D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110263DE25299EAE00F10D6E /* Build configuration list for PBXNativeTarget "Woovly Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110263DF25299EAE00F10D6E /* Debug */,
+				110263E025299EAE00F10D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110263E125299EAE00F10D6E /* Build configuration list for PBXNativeTarget "Woovly AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110263E225299EAE00F10D6E /* Debug */,
+				110263E325299EAE00F10D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 110263B725299EAB00F10D6E /* Project object */;
+}
