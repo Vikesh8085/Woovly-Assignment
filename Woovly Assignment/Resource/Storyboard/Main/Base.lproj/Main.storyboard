@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Woovly_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qHv-ey-wLY" customClass="GIDSignInButton">
+                                <rect key="frame" x="87" y="428" width="240" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="OiH-Ek-xee"/>
+                                    <constraint firstAttribute="height" constant="40" id="qhE-2m-2e3"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBr-yX-tph">
+                                <rect key="frame" x="87" y="428" width="240" height="40"/>
+                                <connections>
+                                    <action selector="gmalLoginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dPk-Ev-q6f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FBr-yX-tph" firstAttribute="top" secondItem="qHv-ey-wLY" secondAttribute="top" id="5OQ-2R-D5d"/>
+                            <constraint firstItem="FBr-yX-tph" firstAttribute="trailing" secondItem="qHv-ey-wLY" secondAttribute="trailing" id="HOd-ZS-dYf"/>
+                            <constraint firstItem="qHv-ey-wLY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qs5-05-n7J"/>
+                            <constraint firstItem="FBr-yX-tph" firstAttribute="bottom" secondItem="qHv-ey-wLY" secondAttribute="bottom" id="fnn-KM-bsK"/>
+                            <constraint firstItem="qHv-ey-wLY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="m7K-06-Zbe"/>
+                            <constraint firstItem="FBr-yX-tph" firstAttribute="leading" secondItem="qHv-ey-wLY" secondAttribute="leading" id="nEl-l3-guO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="101"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="AXe-Wg-rOY">
+            <objects>
+                <pageViewController storyboardIdentifier="HomeViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="CIs-gh-5fd" customClass="HomeViewController" customModule="Woovly_Assignment" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vB2-r6-scU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="751" y="62"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="85p-wD-UAk">
+            <objects>
+                <avPlayerViewController storyboardIdentifier="ContentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" videoGravity="AVLayerVideoGravityResizeAspect" id="JZB-0T-BAf" customClass="ContentViewController" customModule="Woovly_Assignment" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oPG-z7-cnz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1607" y="94"/>
+        </scene>
+    </scenes>
+</document>

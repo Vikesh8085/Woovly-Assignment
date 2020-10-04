@@ -3,17 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		110263C325299EAB00F10D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263C225299EAB00F10D6E /* AppDelegate.swift */; };
 		110263C525299EAB00F10D6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263C425299EAB00F10D6E /* SceneDelegate.swift */; };
-		110263C725299EAB00F10D6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263C625299EAB00F10D6E /* ViewController.swift */; };
 		110263CA25299EAB00F10D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110263C825299EAB00F10D6E /* Main.storyboard */; };
 		110263CC25299EAE00F10D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110263CB25299EAE00F10D6E /* Assets.xcassets */; };
 		110263CF25299EAE00F10D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110263CD25299EAE00F10D6E /* LaunchScreen.storyboard */; };
 		110263DA25299EAE00F10D6E /* Woovly_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263D925299EAE00F10D6E /* Woovly_AssignmentTests.swift */; };
+		110263EB2529AA7A00F10D6E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263EA2529AA7A00F10D6E /* LoginViewController.swift */; };
+		110263EE2529B56D00F10D6E /* GoogleLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263ED2529B56D00F10D6E /* GoogleLoginManager.swift */; };
+		110263F02529B6AB00F10D6E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263EF2529B6AB00F10D6E /* BaseViewController.swift */; };
+		110263F32529B86A00F10D6E /* Error + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263F22529B86A00F10D6E /* Error + Extension.swift */; };
+		110263F52529BDE200F10D6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 110263F42529BDE100F10D6E /* GoogleService-Info.plist */; };
+		110263FA2529C89A00F10D6E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263F92529C89A00F10D6E /* HomeViewController.swift */; };
+		110263FC2529C90800F10D6E /* ViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263FB2529C90800F10D6E /* ViewController + Extension.swift */; };
+		110263FF2529C95F00F10D6E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110263FE2529C95F00F10D6E /* Utility.swift */; };
+		110264022529CC0F00F10D6E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110264012529CC0F00F10D6E /* Constant.swift */; };
+		110264042529D2D800F10D6E /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110264032529D2D800F10D6E /* ContentViewController.swift */; };
+		110264062529D83300F10D6E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110264052529D83300F10D6E /* AVKit.framework */; };
+		110264092529F88200F10D6E /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110264082529F88200F10D6E /* NetworkResult.swift */; };
+		1102640B2529F8EF00F10D6E /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1102640A2529F8EF00F10D6E /* MediaModel.swift */; };
+		1102640D2529F97400F10D6E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1102640C2529F97400F10D6E /* APIManager.swift */; };
+		1102640F2529FC3800F10D6E /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1102640E2529FC3800F10D6E /* UIView + Extension.swift */; };
+		110264122529FC8300F10D6E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110264112529FC8300F10D6E /* HomeViewModel.swift */; };
+		11026414252A020F00F10D6E /* ReachabilityWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11026413252A020F00F10D6E /* ReachabilityWrapper.swift */; };
+		5B5D94EE3445B72B188E3CC0 /* Pods_Woovly_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35614B49EDB1F473B082CC1 /* Pods_Woovly_AssignmentTests.framework */; };
+		BB9795B464E0EDB6953496DF /* Pods_Woovly_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CA3D6CD5DFF7CC1F44275E /* Pods_Woovly_Assignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06C6332C524891EB09FFB0EA /* Pods-Woovly Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woovly Assignment.release.xcconfig"; path = "Target Support Files/Pods-Woovly Assignment/Pods-Woovly Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		110263BF25299EAB00F10D6E /* Woovly Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Woovly Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		110263C225299EAB00F10D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		110263C425299EAB00F10D6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		110263C625299EAB00F10D6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		110263C925299EAB00F10D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		110263CB25299EAE00F10D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		110263CE25299EAE00F10D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +56,28 @@
 		110263D525299EAE00F10D6E /* Woovly AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Woovly AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		110263D925299EAE00F10D6E /* Woovly_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woovly_AssignmentTests.swift; sourceTree = "<group>"; };
 		110263DB25299EAE00F10D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110263EA2529AA7A00F10D6E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		110263ED2529B56D00F10D6E /* GoogleLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginManager.swift; sourceTree = "<group>"; };
+		110263EF2529B6AB00F10D6E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		110263F22529B86A00F10D6E /* Error + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error + Extension.swift"; sourceTree = "<group>"; };
+		110263F42529BDE100F10D6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		110263F92529C89A00F10D6E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		110263FB2529C90800F10D6E /* ViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + Extension.swift"; sourceTree = "<group>"; };
+		110263FE2529C95F00F10D6E /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		110264012529CC0F00F10D6E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		110264032529D2D800F10D6E /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		110264052529D83300F10D6E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		110264082529F88200F10D6E /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		1102640A2529F8EF00F10D6E /* MediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
+		1102640C2529F97400F10D6E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		1102640E2529FC3800F10D6E /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		110264112529FC8300F10D6E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		11026413252A020F00F10D6E /* ReachabilityWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityWrapper.swift; sourceTree = "<group>"; };
+		22BC8DBF7EE79A5E5A5A74FE /* Pods-Woovly AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woovly AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-Woovly AssignmentTests/Pods-Woovly AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		67CA3D6CD5DFF7CC1F44275E /* Pods_Woovly_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Woovly_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		938496BE4BB94E6B0688D243 /* Pods-Woovly Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woovly Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Woovly Assignment/Pods-Woovly Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		B973110BF87C65B0932D482E /* Pods-Woovly AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woovly AssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-Woovly AssignmentTests/Pods-Woovly AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F35614B49EDB1F473B082CC1 /* Pods_Woovly_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Woovly_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110264062529D83300F10D6E /* AVKit.framework in Frameworks */,
+				BB9795B464E0EDB6953496DF /* Pods_Woovly_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5D94EE3445B72B188E3CC0 /* Pods_Woovly_AssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +107,8 @@
 				110263C125299EAB00F10D6E /* Woovly Assignment */,
 				110263D825299EAE00F10D6E /* Woovly AssignmentTests */,
 				110263C025299EAB00F10D6E /* Products */,
+				D1D4B700A712747ED56E7EAB /* Pods */,
+				CA928855A7943F5C2301C119 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +124,8 @@
 		110263C125299EAB00F10D6E /* Woovly Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				110263C225299EAB00F10D6E /* AppDelegate.swift */,
-				110263C425299EAB00F10D6E /* SceneDelegate.swift */,
-				110263C625299EAB00F10D6E /* ViewController.swift */,
-				110263C825299EAB00F10D6E /* Main.storyboard */,
-				110263CB25299EAE00F10D6E /* Assets.xcassets */,
-				110263CD25299EAE00F10D6E /* LaunchScreen.storyboard */,
-				110263D025299EAE00F10D6E /* Info.plist */,
+				110263E525299EDD00F10D6E /* Source */,
+				110263E425299ECA00F10D6E /* Resource */,
 			);
 			path = "Woovly Assignment";
 			sourceTree = "<group>";
@@ -99,6 +139,143 @@
 			path = "Woovly AssignmentTests";
 			sourceTree = "<group>";
 		};
+		110263E425299ECA00F10D6E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				110263F42529BDE100F10D6E /* GoogleService-Info.plist */,
+				110263D025299EAE00F10D6E /* Info.plist */,
+				110263CB25299EAE00F10D6E /* Assets.xcassets */,
+				110263E625299EF100F10D6E /* Storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		110263E525299EDD00F10D6E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				110264002529CC0300F10D6E /* Constant */,
+				110263FD2529C94800F10D6E /* Utility */,
+				110263F12529B84D00F10D6E /* Extension */,
+				110263EC2529B55100F10D6E /* Manager */,
+				110263E92529AA5A00F10D6E /* ViewController */,
+				110264102529FC7300F10D6E /* HomeViewModel */,
+				110263C225299EAB00F10D6E /* AppDelegate.swift */,
+				110263C425299EAB00F10D6E /* SceneDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		110263E625299EF100F10D6E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				110263E825299F0A00F10D6E /* Launch */,
+				110263E725299EFA00F10D6E /* Main */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		110263E725299EFA00F10D6E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				110263C825299EAB00F10D6E /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		110263E825299F0A00F10D6E /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				110263CD25299EAE00F10D6E /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		110263E92529AA5A00F10D6E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				110263EF2529B6AB00F10D6E /* BaseViewController.swift */,
+				110263EA2529AA7A00F10D6E /* LoginViewController.swift */,
+				110263F92529C89A00F10D6E /* HomeViewController.swift */,
+				110264032529D2D800F10D6E /* ContentViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		110263EC2529B55100F10D6E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				110264072529F86100F10D6E /* APIManager */,
+				110263ED2529B56D00F10D6E /* GoogleLoginManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		110263F12529B84D00F10D6E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				110263F22529B86A00F10D6E /* Error + Extension.swift */,
+				110263FB2529C90800F10D6E /* ViewController + Extension.swift */,
+				1102640E2529FC3800F10D6E /* UIView + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		110263FD2529C94800F10D6E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				11026413252A020F00F10D6E /* ReachabilityWrapper.swift */,
+				110263FE2529C95F00F10D6E /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		110264002529CC0300F10D6E /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				110264012529CC0F00F10D6E /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		110264072529F86100F10D6E /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				110264082529F88200F10D6E /* NetworkResult.swift */,
+				1102640A2529F8EF00F10D6E /* MediaModel.swift */,
+				1102640C2529F97400F10D6E /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		110264102529FC7300F10D6E /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				110264112529FC8300F10D6E /* HomeViewModel.swift */,
+			);
+			path = HomeViewModel;
+			sourceTree = "<group>";
+		};
+		CA928855A7943F5C2301C119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				110264052529D83300F10D6E /* AVKit.framework */,
+				67CA3D6CD5DFF7CC1F44275E /* Pods_Woovly_Assignment.framework */,
+				F35614B49EDB1F473B082CC1 /* Pods_Woovly_AssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1D4B700A712747ED56E7EAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				938496BE4BB94E6B0688D243 /* Pods-Woovly Assignment.debug.xcconfig */,
+				06C6332C524891EB09FFB0EA /* Pods-Woovly Assignment.release.xcconfig */,
+				B973110BF87C65B0932D482E /* Pods-Woovly AssignmentTests.debug.xcconfig */,
+				22BC8DBF7EE79A5E5A5A74FE /* Pods-Woovly AssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110263DE25299EAE00F10D6E /* Build configuration list for PBXNativeTarget "Woovly Assignment" */;
 			buildPhases = (
+				E7EE4D6AD9CFC38D770D27E2 /* [CP] Check Pods Manifest.lock */,
 				110263BB25299EAB00F10D6E /* Sources */,
 				110263BC25299EAB00F10D6E /* Frameworks */,
 				110263BD25299EAB00F10D6E /* Resources */,
+				255C5D993C5C1050A3A564BD /* [CP] Embed Pods Frameworks */,
+				EA596F6DECC6934021B329F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110263E125299EAE00F10D6E /* Build configuration list for PBXNativeTarget "Woovly AssignmentTests" */;
 			buildPhases = (
+				98A4ED1F4D215311D995FB6E /* [CP] Check Pods Manifest.lock */,
 				110263D125299EAE00F10D6E /* Sources */,
 				110263D225299EAE00F10D6E /* Frameworks */,
 				110263D325299EAE00F10D6E /* Resources */,
@@ -181,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				110263CF25299EAE00F10D6E /* LaunchScreen.storyboard in Resources */,
+				110263F52529BDE200F10D6E /* GoogleService-Info.plist in Resources */,
 				110263CC25299EAE00F10D6E /* Assets.xcassets in Resources */,
 				110263CA25299EAB00F10D6E /* Main.storyboard in Resources */,
 			);
@@ -195,13 +377,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		255C5D993C5C1050A3A564BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woovly Assignment/Pods-Woovly Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woovly Assignment/Pods-Woovly Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Woovly Assignment/Pods-Woovly Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A4ED1F4D215311D995FB6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Woovly AssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7EE4D6AD9CFC38D770D27E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Woovly Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA596F6DECC6934021B329F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woovly Assignment/Pods-Woovly Assignment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woovly Assignment/Pods-Woovly Assignment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Woovly Assignment/Pods-Woovly Assignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		110263BB25299EAB00F10D6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				110263C725299EAB00F10D6E /* ViewController.swift in Sources */,
+				1102640B2529F8EF00F10D6E /* MediaModel.swift in Sources */,
+				110263F32529B86A00F10D6E /* Error + Extension.swift in Sources */,
+				110263F02529B6AB00F10D6E /* BaseViewController.swift in Sources */,
+				11026414252A020F00F10D6E /* ReachabilityWrapper.swift in Sources */,
+				110264122529FC8300F10D6E /* HomeViewModel.swift in Sources */,
+				110263FF2529C95F00F10D6E /* Utility.swift in Sources */,
+				110264092529F88200F10D6E /* NetworkResult.swift in Sources */,
+				110263EE2529B56D00F10D6E /* GoogleLoginManager.swift in Sources */,
+				1102640D2529F97400F10D6E /* APIManager.swift in Sources */,
+				110263EB2529AA7A00F10D6E /* LoginViewController.swift in Sources */,
+				1102640F2529FC3800F10D6E /* UIView + Extension.swift in Sources */,
+				110263FC2529C90800F10D6E /* ViewController + Extension.swift in Sources */,
 				110263C325299EAB00F10D6E /* AppDelegate.swift in Sources */,
+				110264022529CC0F00F10D6E /* Constant.swift in Sources */,
+				110264042529D2D800F10D6E /* ContentViewController.swift in Sources */,
+				110263FA2529C89A00F10D6E /* HomeViewController.swift in Sources */,
 				110263C525299EAB00F10D6E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,11 +637,12 @@
 		};
 		110263DF25299EAE00F10D6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938496BE4BB94E6B0688D243 /* Pods-Woovly Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74TUC99U3V;
-				INFOPLIST_FILE = "Woovly Assignment/Info.plist";
+				INFOPLIST_FILE = "Woovly Assignment/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +656,12 @@
 		};
 		110263E025299EAE00F10D6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C6332C524891EB09FFB0EA /* Pods-Woovly Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74TUC99U3V;
-				INFOPLIST_FILE = "Woovly Assignment/Info.plist";
+				INFOPLIST_FILE = "Woovly Assignment/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +675,7 @@
 		};
 		110263E225299EAE00F10D6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B973110BF87C65B0932D482E /* Pods-Woovly AssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +698,7 @@
 		};
 		110263E325299EAE00F10D6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC8DBF7EE79A5E5A5A74FE /* Pods-Woovly AssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
